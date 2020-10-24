@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{079FF07D-4096-49F7-AE00-452D374B2064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{079FF07D-4096-49F7-AE00-452D374B2064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3C54CFC7-9044-47DB-9D34-2B536BBCA2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{079FF07D-4096-49F7-AE00-452D374B2064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079FF07D-4096-49F7-AE00-452D374B2064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079FF07D-4096-49F7-AE00-452D374B2064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C54CFC7-9044-47DB-9D34-2B536BBCA2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C54CFC7-9044-47DB-9D34-2B536BBCA2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C54CFC7-9044-47DB-9D34-2B536BBCA2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C54CFC7-9044-47DB-9D34-2B536BBCA2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
